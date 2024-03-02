@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Encabezado*/
+header{
+    background-color: rgb(6, 54, 200);
+    border: double 7px yellow;
+    padding: 15px;
+    
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+}
+
+/*Barra de navegación*/
+nav{
+    background-color: rgb(229, 134, 18);
+    border: 1px ridge rgb(255, 254, 254);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: block;
+    font-size: larger;
+    float: left;
+    border-right: 2px solid white;
+    padding: 7px 0px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+nav ul li:hover{
+    background-color: rgb(16, 198, 201);
+}
+
+/*Sección 1*/
+
+.banner2{
+    background: url(../img/Delivery.webp) no-repeat  ;
+    background-size: cover;
+    height: 600px;
+}
+
+h2{
+    font-size: 75px;
+}
+h3{
+    font-size: 40px;
+}
+
+h2, h3{
+    color: rgb(255, 30, 0);
+    text-align: center;
+    position: relative;
+    top: 40%;
+
+}
+
+
+section{
+    background-color: rgb(144, 3, 3);
+    background: url(../img/Restaurante\ 2.webp);
+    background-size: 50%;
+    border: solid rgb(144, 3, 3) 5px ;
+    margin-bottom: 1px;
+}
+
+article{
+    background-color: rgb(255, 0, 0);
+    border-right: 3px solid  rgb(144, 3, 3);
+    padding: 15px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    color: yellow;
+}
+p{
+    font-size: 21px;
+}
+
+/*Seccion2*/
+.banner3{
+    background-image: url(../img/Fondo\ 2.webp);
+    padding: 50px;
+    background-size: cover;
+}
+
+.banner3 section{
+    position: relative;
+    left: 25%;
+    background-image: none;
+    background-color: rgb(146, 143, 143);
+    border: 10px solid rgb(102, 100, 100);
+    width: 50%;
+    padding: 10px 0px;
+}
+img{
+    position: relative;
+    left: 19%;
+    width: 500px;
+    height: 400px;
+}
+.banner3 p{
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+}
+
+.banner3 .etiqueta{
+    display: inline;
+    position: relative;
+    left: 44%;
+    background-color: rgb(187, 28, 7);
+    padding: 7px;
+    border: 3px solid rgb(244, 196, 3);
+}
+.banner3 .etiqueta:hover{
+
+    background-color: blue;
+}
+
+.banner3 .etiqueta a{
+    color: White;
+    text-decoration: none;
+}
+
+/*Pie de pagina*/
+
+footer{
+    background-color: black;
+}
+
+footer h1{
+    color: white;
+}
+
+footer ul li{
+    font-size: larger;
+    border-right: 2px white solid;
+    color: white;
+    display: inline;
+}

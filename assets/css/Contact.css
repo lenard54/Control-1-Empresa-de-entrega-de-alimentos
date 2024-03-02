@@ -1,0 +1,129 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(2, 98, 85);
+}
+/*Encabezado*/
+header{
+    background-color: rgb(0, 2, 4);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Barra de navegación*/
+nav{
+    background-color: rgb(83, 2, 2);
+    border: 1px ridge rgb(255, 254, 254);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: block;
+    font-size: larger;
+    float: left;
+    border-right: 2px solid white;
+    padding: 7px 0px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+nav ul li:hover{
+    background-color: rgb(16, 198, 201);
+}
+
+/*Formulario*/
+section{
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-size: cover;
+}
+
+section article{
+    position: relative;
+    left: 27%;
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    color: white;
+    width: 738px;
+    height: 1200px;
+}
+
+section article h2{
+    font-size: 40px;
+}
+
+section article p{
+    font-size: 25px;
+}
+
+.formulario{
+    text-align: left;
+    background-color: #631414;
+    padding: 10px;
+    width: 700px;
+    height: 605px;
+    color: white;
+    border: 10px solid rgb(30, 29, 29);
+}
+
+label{
+    font-size: larger;
+}
+
+.formulario input{
+    width: 100%;
+}
+
+.formulario .etiqueta{
+    position: relative;
+    left: 45%;
+    width: 10%;
+    border: 2px solid orangered;
+    margin-top: 5px;
+}
+
+.formulario .etiqueta input{
+    background-color: rgb(222, 141, 10);
+    height: 35px;
+}
+
+section article img{
+    width: 60%;
+    height: 300px;
+}
+
+/*Pie de pagina*/
+
+footer{
+    background-color: black;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+}
+
+footer ul li{
+    font-size: larger;
+    border-right: 2px white solid;
+    color: white;
+    display: inline;
+}
