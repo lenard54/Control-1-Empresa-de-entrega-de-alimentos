@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #5D402E;
+    padding-top: 126px;
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    background-color: #BF6930;
+    border: #333333 solid;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #5D402E;
+    border: double;
+    border-color: #BF6930;
+    border-radius: 20px;
+}
+
+/*Encabezado*/
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    display: block;
+    background-color: #5D402E;
+    height: 80px;
+    width: 100%;
+
+}
+
+header img {
+    position: relative;
+    display: inline;
+    width: 150px;
+    height: 100%;
+
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    left: 30%;
+    bottom: 23px;
+    display: inline;
+    font-size: 45px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #ff6600;
+}
+
+/*Barra de navegación*/
+nav {
+    z-index: 1;
+    position: fixed;
+    top: -5px;
+    width: 100%;
+    display: block;
+    background-color: #BF6930;
+    border-top: 5px ridge #333333;
+    border-bottom: 5px ridge #333333;
+    margin-top: 85px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    font-size: larger;
+    float: left;
+    border-right: 2px ridge #333333;
+    padding: 5px 0px;
+}
+
+nav ul li a {
+    font-family: "Nunito", Sans-serif;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+nav ul li:hover {
+    background-color: #FF8A50;
+}
+
+
+/*cuadro contenedor*/
+.contenedor1 {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0% 0%;
+    background-color: #FFF3B0;
+    text-align: justify;
+    color: #333333;
+}
+
+.encabezado {
+    background-color: #5D402E;
+    text-align: center;
+    color: #FFF3B0;
+    border-bottom: #101010 solid 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.espacio {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.espacio h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+}
+
+.espacio h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: xx-large;
+}
+
+.espacio h3 {
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: x-large;
+}
+
+.espacio p {
+    font-family: "Alegreya", sans-serif;
+    font-size: medium;
+}
+
+.contenedor2 {
+    margin-left: 10px;
+}
+
+.contenedor2 li {
+    font-size: large;
+    margin-left: 19px;
+}
+
+/*Pie de pagina*/
+
+footer {
+    background-color: #101010;
+    height: 93px;
+    padding-top: 10px;
+}
+
+footer h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #F9F9F9;
+    text-align: center;
+    margin: 0px, 10px;
+}
+
+footer ul {
+    margin-top: 20px;
+}
+
+footer ul li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    border-right: 2px #F9F9F9 solid;
+    color: #F9F9F9;
+    display: inline;
+}
+
+footer ul li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    border-right: 2px #F9F9F9 solid;
+    color: #F9F9F9;
+    display: inline;
+}
